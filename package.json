@@ -1,0 +1,29 @@
+{
+  "name": "node-red-contrib-atcommon",
+  "version": "1.1.6",
+  "description": "Advantech IIoT platform common information",
+  "main": "none",
+  "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node postinstall.js",
+	"preinstall": "node preinstall.js"
+  },
+  "keywords": [
+    "common",
+    "atcommon",
+    "Advantech",
+    "IIoT",
+    "AdvantechIIoT"
+  ],
+  "node-red": {
+    "nodes": {
+      "atplatform": "atplatform.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Advantech-IIoT/node-red-contrib-atcommon"
+  },
+  "author": "Chic.Lee",
+  "license": "Apache-2.0"
+}
